@@ -1,0 +1,118 @@
+body {
+  font-family: arial;
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main-nav {
+  background-color: #032f3e;
+}
+#main-nav ul {
+  width: 100%;
+}
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#main-nav li {
+  float: left;
+  width: 14%;
+}
+#main-nav a {
+  color: #f8f9fb;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+#main-nav a:hover {
+  background-color: #333;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.lead-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lead-banner img {
+  width: 100%;
+}
+.lead-banner span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.lead-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.lead-banner .banner-content {
+  text-align: right;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lessons-banner img {
+  width: 100%;
+}
+.lessons-banner span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.lessons-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.lessons-banner li {
+  text-transform: uppercase;
+  font-size: 15px;
+  max-width: 500px;
+  margin: 26px 0px;
+}
