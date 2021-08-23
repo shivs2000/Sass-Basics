@@ -11,7 +11,7 @@
     }
     li{
   float:left;
-  width:14%;
+  width:(100%/6);
 
     }
     a{
@@ -21,7 +21,7 @@
         display:block;
         text-align:center;
         &:hover{
-            background-color: #333;
+            background-color:lighten($color: $deepBlue, $amount: 5)
         }
     }
 
@@ -57,5 +57,41 @@ section h1{
         max-width: 500px;
         margin: 26px 0px;
 
+    }
+}
+#services{
+
+  margin-bottom: 60px;
+
+    li{
+     float:left;
+     box-sizing: border-box;
+     text-align: center;
+     width:(100%/3);
+    }
+    img{
+
+        width:60%;
+        margin:20px  20%;
+
+    }
+    a{
+     text-decoration: None;
+     color:$deepBlue;
+     font-weight: bold;
+     &:hover{
+         color:complement($color: $deepBlue);
+     }
+
+    }
+    ul{
+        @include clearFix;
+    }
+}
+#projects li{
+   @include  grid( 4, 2%);
+
+    img {
+  width:100%;
     }
 }
